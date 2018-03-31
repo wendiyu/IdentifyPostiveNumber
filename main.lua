@@ -18,7 +18,7 @@ enterButton.x = display.contentCenterX + 600
 enterButton.y = display.contentCenterY + 1
 enterButton.id = "enter button"
 
-local function positiveorNegative( event )
+local function positiveOrNegative( event )
 	-- body
 	local numberUser = tonumber(numberTextField)
 
@@ -33,4 +33,4 @@ local function positiveorNegative( event )
 	end 
 end
 
-enterButton:addEventListener("touch", positiveorNegative)
+enterButton:addEventListener("touch", positiveOrNegative)
